@@ -1,5 +1,9 @@
 # FireMap
 
+[![npm](https://img.shields.io/npm/l/firemap.svg)](https://github.com/artisin/firemap/blob/master/LICENSE.txt)
+[![npm](https://img.shields.io/npm/v/firemap.svg)](https://www.npmjs.com/package/firemap)
+[![David](https://img.shields.io/david/artisin/firemap.svg)](https://github.com/artisin/firemap/blob/master/package.json)
+
 FireMap is a refinement on the typical "heatmap" to help better visualize mouse position data through Inverse Distance Weighting. I created a companion website to display various FireMap example outputs along with some additional detail you can check out here: [https://firemap.netlify.com/](https://firemap.netlify.com/)
 
 Compared to [heatmap.js](https://www.patrick-wied.at/static/heatmapjs/?utm_source=gh) and other heatmap libraries there are two major differences. FireMap uses a standardized GIS algorithm compared to heatmap.js and others that use a density equation of some sort? This was the primary reason for creating FireMap since I thought it would be advantageous to employ a deterministic algorithm. Secondly, due to the calculation intensive nature of FireMap it's not intended to be used in real-time, although, it does have said capability.
