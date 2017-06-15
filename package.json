@@ -22,9 +22,9 @@
     "link": "yarn link && yarn link firemap",
     "postinstall": "yarn run link",
     "prepublish": "yarn run build",
-    "release:major": "yarn run test && bumped release major",
-    "release:minor": "yarn run test && bumped release minor",
-    "release:patch": "yarn run test && bumped release patch"
+    "release:major": "bumped release major",
+    "release:minor": "bumped release minor",
+    "release:patch": "bumped release patch"
   },
   "dependencies": {
     "detect-it": "^3.0.0",
